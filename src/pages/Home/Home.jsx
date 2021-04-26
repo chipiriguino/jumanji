@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Wasap from '../Wasap.jsx'
+import Wasap2 from '../Wasap2.jsx'
 
 export default class Home extends Component {
     
@@ -18,7 +18,6 @@ export default class Home extends Component {
       <a className="et-hero-tab" href="#tab-react">About us</a>
       <a className="et-hero-tab" href="#tab-angular">FAQ</a>
       <a className="et-hero-tab" href="#tab-other">Fotos</a>
-      <Wasap className="wasap"></Wasap>
       <span className="et-hero-tab-slider"></span>
     </div>
   </section>
@@ -31,7 +30,123 @@ export default class Home extends Component {
     </section>
     <section className="et-slide" id="tab-flexbox">
       <h1>Carta</h1>
-      <h3>carta</h3>
+      
+      <div class="wrapper-cart">
+    <div class="list">
+      <h2 class="list-title">By The Pound</h2>
+      <ul>
+        <li class="item"><span class="name">Brisket</span>
+          <span class="price">22</span>
+        </li>
+   <li class="item"><span class="name">Ribs</span>
+          <span class="price">22</span>
+        </li>
+   <li class="item"><span class="name">Pulled Pork</span>
+          <span class="price">19</span>
+        </li>
+   <li class="item"><span class="name">Turkey</span>
+          <span class="price">22</span>
+        </li>
+           <li class="item"><span class="name">Sausage</span>
+          <span class="price">14</span>
+        </li>
+   
+        
+      </ul>
+    </div>
+
+  <div class="list">
+      <h2 class="list-title">Sandwiches</h2>
+      <ul>
+        <li class="item"><span class="name">Brisket</span>
+          <span class="price">22</span>
+        </li>
+   <li class="item"><span class="name">pulled Pork</span>
+          <span class="price">9.5</span>
+        </li>
+   <li class="item"><span class="name">Chopped Beef</span>
+          <span class="price">19</span>
+        </li>
+   <li class="item"><span class="name">Turkey</span>
+          <span class="price">22</span>
+        </li>
+           <li class="item"><span class="name">Sausage</span>
+          <span class="price">14</span>
+        </li>
+                   <li class="item"><span class="name">Tipsy Texan</span>
+          <span class="price">14</span>
+        </li>
+   
+        
+      </ul>
+    </div>
+  
+ <div class="list">
+      <h2 class="list-title">Sides</h2>
+      <ul>
+        <li class="item"><span class="name">Potato Salad</span>
+          <span class="price">3</span>
+        </li>
+   <li class="item"><span class="name">Slaw</span>
+          <span class="price">9.5</span>
+        </li>
+   <li class="item"><span class="name">Pinto Beans</span>
+          <span class="price">19</span>
+        </li>
+        <li class="item"><span class="name">Pinto Beans</span>
+          <span class="price">19</span>
+        </li>
+      </ul>
+    </div>
+  <div class="list">
+      <h2 class="list-title">By The Pound</h2>
+      <ul>
+        <li class="item"><span class="name">Brisket</span>
+          <span class="price">22</span>
+        </li>
+   <li class="item"><span class="name">Ribs</span>
+          <span class="price">22</span>
+        </li>
+   <li class="item"><span class="name">Pulled Pork</span>
+          <span class="price">19</span>
+        </li>
+   <li class="item"><span class="name">Turkey</span>
+          <span class="price">22</span>
+        </li>
+           <li class="item"><span class="name">Sausage</span>
+          <span class="price">14</span>
+        </li>
+   
+        
+      </ul>
+    </div>
+
+  <div class="list">
+      <h2 class="list-title">Sandwiches</h2>
+      <ul>
+        <li class="item"><span class="name">Brisket</span>
+          <span class="price">22</span>
+        </li>
+   <li class="item"><span class="name">pulled Pork</span>
+          <span class="price">9.5</span>
+        </li>
+   <li class="item"><span class="name">Chopped Beef</span>
+          <span class="price">19</span>
+        </li>
+   <li class="item"><span class="name">Turkey</span>
+          <span class="price">22</span>
+        </li>
+           <li class="item"><span class="name">Sausage</span>
+          <span class="price">14</span>
+        </li>
+                   <li class="item"><span class="name">Tipsy Texan</span>
+          <span class="price">14</span>
+        </li>
+        
+      </ul>
+    </div>
+</div>
+
     </section>
     <section className="et-slide" id="tab-react">
       <h1>About us</h1>
@@ -48,6 +163,7 @@ export default class Home extends Component {
       <img src="images/3.png" width="100" alt=""></img>
       </div>
     </section>
+    <Wasap2 className="wasap"></Wasap2>
   </main>
             </div>
         )

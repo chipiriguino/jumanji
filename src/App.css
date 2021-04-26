@@ -10,6 +10,9 @@ a {
   background-position: top;
   background-color: black;
 }
+.et-hero-tab a{
+  z-index: 101;
+}
 .et-hero-tabs h3{
   color: whitesmoke;
   padding-top: 125%;
@@ -138,6 +141,78 @@ flex-direction: row;
   margin-top: 100px;
 }
 
+/* WASAP2 */
+/* for desktop */
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 0;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+      margin-top: 10px;
+  }
+
+  .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 22px;
+  }
+}
+
+
+/* CARTA */
+/* .wrapper-cart {
+  padding: 2em 1em;
+  background: #fff;
+  columns: 100px 2;
+  column-gap: 32px;
+} */
+@media (min-width: 600px) {
+  .wrapper-cart {
+    padding: 1em calc(50% - 300px);
+ }
+}
+.item {
+  border-bottom: 1px dotted #c5c5c5;
+  break-inside: avoid;
+  display: flex;
+  justify-content: space-between;
+}
+span {
+  font-family: "Teko", sans-serif;
+  margin-bottom: -4px;
+  background: #fff;
+  padding: 4px;
+  color: #555;
+}
+.list-title {
+  font-family: "Teko", sans-serif;
+  font-size: 30px;
+  color: #e67437;
+  margin-bottom: 32px;
+}
+.list {
+  margin-bottom: 32px;
+}
+
 
 /* QUERYS */
 @media (min-width: 800px) {
@@ -160,5 +235,9 @@ flex-direction: row;
 .pp{
   font-size: 2rem;
 }
+.whatsapp_float {
+  z-index: 100;
+}
 }
  
+
