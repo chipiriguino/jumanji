@@ -133,6 +133,13 @@ display: flex;
 flex-direction: row;
 }
 
+/* WAASAP */
+.wasap{
+  margin-top: 100px;
+}
+
+
+/* QUERYS */
 @media (min-width: 800px) {
   .et-hero-tabs h1, .et-slide h1 {
     font-size: 3rem;

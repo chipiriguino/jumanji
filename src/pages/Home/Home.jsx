@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Wasap from '../Wasap.jsx'
 
 export default class Home extends Component {
     
@@ -17,6 +18,7 @@ export default class Home extends Component {
       <a className="et-hero-tab" href="#tab-react">About us</a>
       <a className="et-hero-tab" href="#tab-angular">FAQ</a>
       <a className="et-hero-tab" href="#tab-other">Fotos</a>
+      <Wasap className="wasap"></Wasap>
       <span className="et-hero-tab-slider"></span>
     </div>
   </section>
