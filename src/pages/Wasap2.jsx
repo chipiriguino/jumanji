@@ -6,7 +6,7 @@ export default class Wasap2 extends Component {
         return (
             <div>
                 <a
-        href="https://wa.me/2348100000000"
+        href="https://wa.me/34663537159"
         class="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"
