@@ -15,9 +15,9 @@ export default class Home extends Component {
     <div className="et-hero-tabs-container">
       <a className="et-hero-tab" href="#tab-es6">Experience</a>
       <a className="et-hero-tab" href="#tab-flexbox">Carta</a>
-      <a className="et-hero-tab" href="#tab-react">About us</a>
-      <a className="et-hero-tab" href="#tab-angular">FAQ</a>
-      <a className="et-hero-tab" href="#tab-other">Fotos</a>
+      <a className="et-hero-tab" href="#tab-react">Cocktails</a>
+      <a className="et-hero-tab" href="#tab-angular">Galería</a>
+      <a className="et-hero-tab" href="#tab-other">Contacto</a>
       <span className="et-hero-tab-slider"></span>
     </div>
   </section>
@@ -121,40 +121,54 @@ export default class Home extends Component {
       </ul>
     </div>
 
-  <div class="list">
-      <h2 class="list-title">Sandwiches</h2>
-      <ul>
-        <li class="item"><span class="name">Brisket</span>
-          <span class="price">22</span>
-        </li>
-   <li class="item"><span class="name">pulled Pork</span>
-          <span class="price">9.5</span>
-        </li>
-   <li class="item"><span class="name">Chopped Beef</span>
-          <span class="price">19</span>
-        </li>
-   <li class="item"><span class="name">Turkey</span>
-          <span class="price">22</span>
-        </li>
-           <li class="item"><span class="name">Sausage</span>
-          <span class="price">14</span>
-        </li>
-                   <li class="item"><span class="name">Tipsy Texan</span>
-          <span class="price">14</span>
-        </li>
-        
-      </ul>
-    </div>
 </div>
 
     </section>
     <section className="et-slide" id="tab-react">
-      <h1>About us</h1>
-      <h3>about us</h3>
+      <h1>Cocktails</h1>
+      <div class="wrapper-cart">
+    <div class="list">
+      <h2 class="list-title">Cocktails</h2>
+      <ul>
+        <li class="item"><span class="name">Manhatan</span>
+          <span class="price">22</span>
+        </li>
+   <li class="item"><span class="name">Pipireto</span>
+          <span class="price">22</span>
+        </li>
+   <li class="item"><span class="name">Piña colada</span>
+          <span class="price">19</span>
+        </li>
+   <li class="item"><span class="name">Sandia Boom</span>
+          <span class="price">22</span>
+        </li>
+           <li class="item"><span class="name">Caipirinha</span>
+          <span class="price">14</span>
+        </li>
+        <li class="item"><span class="name">Manhatan</span>
+          <span class="price">22</span>
+        </li>
+   <li class="item"><span class="name">Pipireto</span>
+          <span class="price">22</span>
+        </li>
+   <li class="item"><span class="name">Piña colada</span>
+          <span class="price">19</span>
+        </li>
+   <li class="item"><span class="name">Sandia Boom</span>
+          <span class="price">22</span>
+        </li>
+           <li class="item"><span class="name">Caipirinha</span>
+          <span class="price">14</span>
+        </li>
+   
+        
+      </ul>
+    </div>
+</div>
     </section>
     <section className="et-slide" id="tab-angular">
-      <h1>FAQ</h1>
-      <h3>FAQ</h3>
+    <h1>About us</h1>
+      <h3>about us</h3>
     </section>
     <section className="et-slide" id="tab-other">
         <div className="fotos">
