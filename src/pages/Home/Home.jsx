@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // import {Link} from 'react-router-dom';
 import Wasap2 from "../Wasap2.jsx";
+import Caerousel from "../Caerousel.jsx";
 
 export default class Home extends Component {
   render() {
@@ -32,11 +33,11 @@ export default class Home extends Component {
         </section>
 
         <main className="et-main">
-          <section className="et-slide" id="tab-es6">
+          <section className="et-slide et-slide-experience" id="tab-es6">
             <h1>Experience</h1>
-            <h3>experience</h3>
+            <Caerousel></Caerousel>
           </section>
-          <section className="et-slide" id="tab-flexbox">
+          <section className="et-slide et-slide-carta" id="tab-flexbox">
             <h1>Carta</h1>
 
             <div class="wrapper-cart">
@@ -144,7 +145,7 @@ export default class Home extends Component {
               </div>
             </div>
           </section>
-          <section className="et-slide" id="tab-react">
+          <section className="et-slide et-slide-cocktails" id="tab-react">
             <h1>Cocktails</h1>
             <div class="wrapper-cart">
               <div class="list">
@@ -194,7 +195,7 @@ export default class Home extends Component {
               </div>
             </div>
           </section>
-          <section className="et-slide" id="tab-angular">
+          <section className="et-slide et-slide-cotacto" id="tab-angular">
             <h1>Contacto</h1>
             <p className="reservas">
               Aceptamos reservas para comidas y cenas. Para hacer la reserva,
@@ -225,7 +226,7 @@ export default class Home extends Component {
               </div>
             </ul>
           </section>
-          <section className="et-slide" id="tab-other">
+          <section className="et-slide et-slide-galeria" id="tab-other">
             <div className="fotos">
               <img src="images/1.png" width="100" alt=""></img>
               <img src="images/2.png" width="100" alt=""></img>

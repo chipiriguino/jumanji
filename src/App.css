@@ -4,6 +4,9 @@ body {
 a {
   text-decoration: none;
 }
+.carousel{
+  z-index: 0;
+}
 .et-hero-tabs{
   background-image:url("assets/logo.png");
   background-repeat: no-repeat;
@@ -23,11 +26,29 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
   /* background: #eee; */
   text-align: center;
   padding: 0 2em;
+}
+.et-hero-tabs{
+  height: 100vh;
+}
+.et-slide-experience{
+  height: 100vh;
+}
+.et-slide-carta{
+  height: 140vh;
+}
+.et-slide-cocktails{
+  height: 100vh;
+}
+.et-slide-contacto{
+  height: 100vh;
+}
+.et-slide-galeria{
+  height: 100vh;
 }
 .et-hero-tabs h1, .et-slide h1 {
   font-size: 2rem;
