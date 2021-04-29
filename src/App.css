@@ -9,6 +9,7 @@ a {
   background-repeat: no-repeat;
   background-position: top;
   background-color: black;
+  z-index: 101;
 }
 .et-hero-tab a{
   z-index: 101;
@@ -128,6 +129,15 @@ a {
   }
 }
 
+
+/* CONTACTO */
+.reservas{
+  text-align: justify;
+}
+.rrss{
+  display: flex;
+  flex-direction: row;
+}
 
 
 /* FOTOS */
