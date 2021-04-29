@@ -154,10 +154,16 @@ a {
 /* CONTACTO */
 .reservas{
   text-align: justify;
+  margin-top: 3rem;
+}
+.rrssh6{
+  margin-top: 2rem;
 }
 .rrss{
   display: flex;
   flex-direction: row;
+  margin-top: 2rem;
+  margin-right: 1.7rem;
 }
 
 

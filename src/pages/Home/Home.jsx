@@ -207,7 +207,7 @@ export default class Home extends Component {
               -Domingo a Jueves de 9:00 h. a 18:00 h.<br></br>
               -Viernes y Sábado de 9:00 h. a 22:00 h.
             </p>
-            <h6>
+            <h6 className="rrssh6">
               También puede comunicarse con nosotros atraves de nuestras RRSS:
             </h6>
             <ul className="rrss">
@@ -227,11 +227,12 @@ export default class Home extends Component {
             </ul>
           </section>
           <section className="et-slide et-slide-galeria" id="tab-other">
-            <div className="fotos">
+              <h1>Galería</h1>
+            {/* <div className="fotos">
               <img src="images/1.png" width="100" alt=""></img>
               <img src="images/2.png" width="100" alt=""></img>
               <img src="images/3.png" width="100" alt=""></img>
-            </div>
+            </div> */}
           </section>
           <Wasap2 className="wasap"></Wasap2>
         </main>
