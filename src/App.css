@@ -42,7 +42,7 @@ a {
   height: 145vh;
 }
 .et-slide-cocktails{
-  height: 100vh;
+  height: 320vh;
 }
 .et-slide-contacto{
   height: 100vh;
@@ -52,7 +52,7 @@ a {
 }
 .et-hero-tabs h1, .et-slide h1 {
   font-size: 2rem;
-  margin: 0;
+  margin: 30px;
   letter-spacing: 1rem;
 }
 .et-slide h3 {
@@ -154,7 +154,7 @@ a {
 /* CONTACTO */
 .reservas{
   text-align: justify;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 .rrssh6{
   margin-top: 2rem;
@@ -250,6 +250,14 @@ span {
   margin-bottom: 32px;
 }
 
+/* COCKTAILS */
+
+.list p{
+  font-size: 12px;
+}
+.h2-title{
+  margin-top: 45px;
+}
 
 /* QUERYS */
 @media (min-width: 800px) {
