@@ -261,6 +261,9 @@ span {
 
 /* QUERYS */
 @media (min-width: 800px) {
+  .et-hero-tabs{
+    height: 100vh;
+  }
   .et-hero-tabs h1, .et-slide h1 {
     font-size: 3rem;
  }
@@ -279,6 +282,10 @@ span {
 }
 .pp{
   font-size: 2rem;
+}
+.typing-demo1 {
+ 
+  margin-top: 0px;
 }
 .whatsapp_float {
   z-index: 100;
