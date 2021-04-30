@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 // import {Link} from 'react-router-dom';
+import {Link} from "react-scroll";
 import Wasap2 from "../Wasap2.jsx";
 import Caerousel from "../Caerousel.jsx";
 
@@ -14,19 +15,54 @@ export default class Home extends Component {
           <p className="typing-demo1 pp">feel the experience</p>
           <div className="et-hero-tabs-container">
             <a className="et-hero-tab" href="#tab-es6">
-              Experience
+            <Link
+                to="tab-es6"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+              >Experience</Link>
             </a>
             <a className="et-hero-tab" href="#tab-flexbox">
-              Carta
+            <Link
+                to="tab-flexbox"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+              >Carta</Link>
             </a>
             <a className="et-hero-tab" href="#tab-react">
-              Cocktails
+            <Link
+                to="tab-react"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+              >Cocktails</Link>
             </a>
             <a className="et-hero-tab" href="#tab-angular">
-              Contacto
+            <Link
+                to="tab-angular"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+              >Contacto</Link>
             </a>
             <a className="et-hero-tab" href="#tab-other">
-              Galería
+            <Link
+                to="tab-other"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1000}
+              >Galería</Link>
             </a>
             <span className="et-hero-tab-slider"></span>
           </div>
@@ -372,6 +408,7 @@ export default class Home extends Component {
           </section>
           <Wasap2 className="wasap"></Wasap2>
         </main>
+        {/* <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./Sticky.js"></script> */}
       </div>
     );
   }
