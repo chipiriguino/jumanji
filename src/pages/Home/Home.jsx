@@ -371,8 +371,8 @@ export default class Home extends Component {
             <h1>Contacto</h1>
             <p className="reservas">
               Aceptamos reservas para comidas y cenas. Para hacer la reserva,
-              por favor llame o mande un wasap al número de{" "}
-              <a href="tel:+34663537159">teléfono. </a>
+              por favor llame o mande un wasap al número de teléfono{" "}
+              <a href="tel:+34663537159">12345. </a>
               Nuevo horario hasta nueva orden por parte de la Generalitat.
               <br></br>
               <br></br>

@@ -87,11 +87,7 @@ a {
   transition: all 0.5s ease;
   font-size: 0.8rem;
 }
-.et-hero-tab:hover {
-  color: white;
-  background: black;
-  transition: all 0.5s ease;
-}
+
 .et-hero-tab-slider {
   position: absolute;
   bottom: 0;
@@ -99,6 +95,9 @@ a {
   height: 6px;
   background: #66b1f1;
   transition: left 0.3s ease;
+}
+.et-hero-tab:hover {
+  color:#000;
 }
 
 /* TYPING */
@@ -263,6 +262,11 @@ span {
 
 /* QUERYS */
 @media (min-width: 800px) {
+  .et-hero-tab:hover {
+    color: white;
+    background: black;
+    transition: all 0.5s ease;
+  }
   .et-hero-tabs{
     height: 100vh;
   }
