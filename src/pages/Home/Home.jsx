@@ -30,7 +30,7 @@ export default class Home extends Component {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={1000}
               >Carta</Link>
             </a>
@@ -40,7 +40,7 @@ export default class Home extends Component {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={1000}
               >Cocktails</Link>
             </a>
@@ -50,7 +50,7 @@ export default class Home extends Component {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={1000}
               >Contacto</Link>
             </a>
