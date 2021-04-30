@@ -391,7 +391,7 @@ export default class Home extends Component {
               </div>
               <div>
               <a href="https://twitter.com/"> <img
-                  src="/images/twitter.png"
+                  src="/images/instagram.png"
                   width="100"
                   alt="twitter"
                 ></img></a>
@@ -408,7 +408,6 @@ export default class Home extends Component {
           </section>
           <Wasap2 className="wasap"></Wasap2>
         </main>
-        {/* <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./Sticky.js"></script> */}
       </div>
     );
   }
