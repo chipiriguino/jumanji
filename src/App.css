@@ -1,3 +1,4 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
 body {
   font-family: "Century Gothic", 'Lato', sans-serif;
 }
@@ -41,10 +42,10 @@ a {
   height: 90vh;
 }
 .et-slide-experience{
-  height: 90vh;
+  height: 85vh;
 }
 .et-slide-carta{
-  height: 145vh;
+  height: 125vh;
 }
 .et-slide-cocktails{
   height: 320vh;
@@ -56,7 +57,7 @@ a {
   margin-top: 9.3rem;
 }
 .et-slide-galeria{
-  height: 100vh;
+  height: 230vh;
 }
 .et-hero-tabs h1, .et-slide h1 {
   font-size: 2rem;
@@ -232,6 +233,7 @@ flex-direction: row;
 @media (min-width: 600px) {
   .wrapper-cart {
     padding: 1em calc(50% - 300px);
+   
  }
 }
 .item {
@@ -279,6 +281,9 @@ span {
   /* position: absolute; */
   top: 0;
   left: 0;
+}
+.et-slide-galeria h3{
+  margin: 3rem 0
 }
 
 

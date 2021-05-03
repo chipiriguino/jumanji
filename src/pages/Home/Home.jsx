@@ -2,12 +2,55 @@ import React, { Component } from "react";
 import ReactPlayer from 'react-player';
 import {Link} from "react-scroll";
 import Wasap2 from "../Wasap2.jsx";
-import Caerousel from "../Caerousel.jsx";
+// import Caerousel from "../Caerousel.jsx";
+import ImageGallery from 'react-image-gallery';
 // import {Helmet} from "react-helmet";
 // import Gallery from 'react-grid-gallery';
 
 export default class Home extends Component {
   render() {
+    const images = [
+        {
+          original: '/images/plantilla.png',
+          thumbnail: '/images/plantilla.png',
+        },
+        {
+          original: '/images/plantilla.png',
+          thumbnail: '/images/plantilla.png',
+        },
+        {
+          original: '/images/plantilla.png',
+          thumbnail: '/images/plantilla.png',
+        },
+      ];
+      const images1 = [
+        {
+          original: '/images/cocktail1.png',
+          thumbnail: '/images/cocktail1.png',
+        },
+        {
+          original: '/images/cocktail2.png',
+          thumbnail: '/images/cocktail2.png',
+        },
+        {
+          original: '/images/cocktail1.png',
+          thumbnail: '/images/cocktail1.png',
+        },
+      ];
+      const images2 = [
+        {
+          original: '/images/comida1.png',
+          thumbnail: '/images/comida1.png',
+        },
+        {
+          original: '/images/comida2.png',
+          thumbnail: '/images/comida2.png',
+        },
+        {
+          original: '/images/comida1.png',
+          thumbnail: '/images/comida1.png',
+        },
+      ];
     return (
       <div>
         <section className="et-hero-tabs">
@@ -73,7 +116,15 @@ export default class Home extends Component {
         <main className="et-main">
           <section className="et-slide et-slide-experience" id="tab-es6">
             <h1>Experience</h1>
-            <Caerousel></Caerousel>
+            <div className='player-wrapper'>
+        <ReactPlayer
+          className='react-player'
+          url='/images/cocktail-video.mp4'
+          width='100%'
+          height='100%'
+          controls={true}
+        />
+      </div>
           </section>
           <section className="et-slide et-slide-carta" id="tab-flexbox">
             <h1>Carta</h1>
@@ -394,7 +445,7 @@ export default class Home extends Component {
               <div>
               <a href="https://twitter.com/"> <img
                   src="/images/instagram.png"
-                  width="100"
+                  width="122"
                   alt="twitter"
                 ></img></a>
               </div>
@@ -402,16 +453,19 @@ export default class Home extends Component {
           </section>
           <section className="et-slide et-slide-galeria" id="tab-other">
               <h1>Galería</h1>
-              <div className='player-wrapper'>
-        <ReactPlayer
-          className='react-player'
-          url='/images/cocktail-video.mp4'
-          width='100%'
-          height='100%'
-          controls={true}
-        />
+      {/* <img src="/images/plantilla.png" width="100%" height="100%" alt="Equipo" /> */}
+      <div>
+      <h3>Nosotros</h3>
+      <ImageGallery items={images} />
       </div>
-      <img src="/images/plantilla.png" width="100%" height="100%" alt="Equipo" />
+      <div>
+      <h3>Comida</h3>
+      <ImageGallery items={images1} />
+      </div>
+      <div>
+      <h3>Cocktails</h3>
+      <ImageGallery items={images2} />
+      </div>
           </section>
           <Wasap2 className="wasap"></Wasap2>
         </main>
