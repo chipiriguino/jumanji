@@ -287,16 +287,6 @@ span {
 }
 
 
-/* FOOOTER */
-footer{
-  background-color: #000;
-  color: white;
-  padding:.5vh;
-  padding-top: 20px;
-}
-
-
-
 /* QUERYS */
 @media (min-width: 800px) {
   .et-hero-tab:hover {

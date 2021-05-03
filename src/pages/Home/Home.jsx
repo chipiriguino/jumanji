@@ -467,9 +467,6 @@ export default class Home extends Component {
       <ImageGallery items={images2} />
       </div>
           </section>
-          <footer>
-              <p>calle falsa 123    copyrigth 20201</p>
-          </footer>
           <Wasap2 className="wasap"></Wasap2>
         </main>
       </div>
