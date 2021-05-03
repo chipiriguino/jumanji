@@ -1,56 +1,57 @@
 import React, { Component } from "react";
-import ReactPlayer from 'react-player';
-import {Link} from "react-scroll";
+import ReactPlayer from "react-player";
+import { Link } from "react-scroll";
 import Wasap2 from "../Wasap2.jsx";
+import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
 // import Caerousel from "../Caerousel.jsx";
-import ImageGallery from 'react-image-gallery';
+import ImageGallery from "react-image-gallery";
 // import {Helmet} from "react-helmet";
 // import Gallery from 'react-grid-gallery';
 
 export default class Home extends Component {
   render() {
     const images = [
-        {
-          original: '/images/plantilla.png',
-          thumbnail: '/images/plantilla.png',
-        },
-        {
-          original: '/images/plantilla.png',
-          thumbnail: '/images/plantilla.png',
-        },
-        {
-          original: '/images/plantilla.png',
-          thumbnail: '/images/plantilla.png',
-        },
-      ];
-      const images1 = [
-        {
-          original: '/images/cocktail1.png',
-          thumbnail: '/images/cocktail1.png',
-        },
-        {
-          original: '/images/cocktail2.png',
-          thumbnail: '/images/cocktail2.png',
-        },
-        {
-          original: '/images/cocktail1.png',
-          thumbnail: '/images/cocktail1.png',
-        },
-      ];
-      const images2 = [
-        {
-          original: '/images/comida1.png',
-          thumbnail: '/images/comida1.png',
-        },
-        {
-          original: '/images/comida2.png',
-          thumbnail: '/images/comida2.png',
-        },
-        {
-          original: '/images/comida1.png',
-          thumbnail: '/images/comida1.png',
-        },
-      ];
+      {
+        original: "/images/plantilla.png",
+        thumbnail: "/images/plantilla.png",
+      },
+      {
+        original: "/images/plantilla.png",
+        thumbnail: "/images/plantilla.png",
+      },
+      {
+        original: "/images/plantilla.png",
+        thumbnail: "/images/plantilla.png",
+      },
+    ];
+    const images1 = [
+      {
+        original: "/images/cocktail1.png",
+        thumbnail: "/images/cocktail1.png",
+      },
+      {
+        original: "/images/cocktail2.png",
+        thumbnail: "/images/cocktail2.png",
+      },
+      {
+        original: "/images/cocktail1.png",
+        thumbnail: "/images/cocktail1.png",
+      },
+    ];
+    const images2 = [
+      {
+        original: "/images/comida1.png",
+        thumbnail: "/images/comida1.png",
+      },
+      {
+        original: "/images/comida2.png",
+        thumbnail: "/images/comida2.png",
+      },
+      {
+        original: "/images/comida1.png",
+        thumbnail: "/images/comida1.png",
+      },
+    ];
     return (
       <div>
         <section className="et-hero-tabs">
@@ -60,54 +61,64 @@ export default class Home extends Component {
           <p className="typing-demo1 pp">feel the experience</p>
           <div className="et-hero-tabs-container">
             <a className="et-hero-tab" href="#tab-es6">
-            <Link
+              <Link
                 to="tab-es6"
                 activeClass="active"
                 spy={true}
                 smooth={true}
                 offset={0}
                 duration={1000}
-              >Experience</Link>
+              >
+                Experience
+              </Link>
             </a>
             <a className="et-hero-tab" href="#tab-flexbox">
-            <Link
+              <Link
                 to="tab-flexbox"
                 activeClass="active"
                 spy={true}
                 smooth={true}
                 offset={0}
                 duration={1000}
-              >Carta</Link>
+              >
+                Carta
+              </Link>
             </a>
             <a className="et-hero-tab" href="#tab-react">
-            <Link
+              <Link
                 to="tab-react"
                 activeClass="active"
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={1000}
-              >Cocktails</Link>
+                duration={1300}
+              >
+                Cocktails
+              </Link>
             </a>
             <a className="et-hero-tab" href="#tab-angular">
-            <Link
+              <Link
                 to="tab-angular"
                 activeClass="active"
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={1000}
-              >Contacto</Link>
+                duration={1500}
+              >
+                Contacto
+              </Link>
             </a>
             <a className="et-hero-tab" href="#tab-other">
-            <Link
+              <Link
                 to="tab-other"
                 activeClass="active"
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={1000}
-              >Galería</Link>
+                duration={1800}
+              >
+                Galería
+              </Link>
             </a>
             <span className="et-hero-tab-slider"></span>
           </div>
@@ -116,15 +127,15 @@ export default class Home extends Component {
         <main className="et-main">
           <section className="et-slide et-slide-experience" id="tab-es6">
             <h1>Experience</h1>
-            <div className='player-wrapper'>
-        <ReactPlayer
-          className='react-player'
-          url='/images/cocktail-video.mp4'
-          width='100%'
-          height='100%'
-          controls={true}
-        />
-      </div>
+            <div className="player-wrapper">
+              <ReactPlayer
+                className="react-player"
+                url="/images/cocktail-video.mp4"
+                width="100%"
+                height="100%"
+                controls={true}
+              />
+            </div>
           </section>
           <section className="et-slide et-slide-carta" id="tab-flexbox">
             <h1>Carta</h1>
@@ -310,7 +321,7 @@ export default class Home extends Component {
                   </li>
                   <p>Ron,piña,coco</p>
                   <li className="item">
-                    <span className="name">S**  ON THE BEACH</span>
+                    <span className="name">S** ON THE BEACH</span>
                     <span className="price">7</span>
                   </li>
                   <p>Vodka,arándanos,naranja</p>
@@ -353,9 +364,9 @@ export default class Home extends Component {
                     <span className="price">7</span>
                   </li>
                   <p>Gin,limón,original RB</p>
-                  </ul>
+                </ul>
 
-                  <h2 className="list-title h2-title">For Drivers</h2>
+                <h2 className="list-title h2-title">For Drivers</h2>
                 <ul>
                   <li className="item">
                     <span className="name">GINGER PUMPKING</span>
@@ -372,9 +383,9 @@ export default class Home extends Component {
                     <span className="price">7</span>
                   </li>
                   <p>Naranja,piña,melocotón</p>
-                  </ul>
+                </ul>
 
-                  <h2 className="list-title h2-title">Aperitivo</h2>
+                <h2 className="list-title h2-title">Aperitivo</h2>
                 <ul>
                   <li className="item">
                     <span className="name">NEGRONI</span>
@@ -396,9 +407,9 @@ export default class Home extends Component {
                     <span className="price">8</span>
                   </li>
                   <p>Pisco,limón,huevo</p>
-                  </ul>
+                </ul>
 
-                  <h2 className="list-title h2-title">Batidos De Fruta</h2>
+                <h2 className="list-title h2-title">Batidos De Fruta</h2>
                 <ul>
                   <li className="item">
                     <span className="name">PIÑA & COCO</span>
@@ -415,8 +426,7 @@ export default class Home extends Component {
                     <span className="price">6</span>
                   </li>
                   <p>Zumo y lima</p>
-                  </ul>
-
+                </ul>
               </div>
             </div>
           </section>
@@ -437,40 +447,64 @@ export default class Home extends Component {
             </h6>
             <ul className="rrss">
               <div>
-                <a href="https://twitter.com/"><img src="/images/twitter.png" width="100" alt="twitter"></img></a>
+                <a href="https://twitter.com/">
+                  <img
+                    src="/images/twitter.png"
+                    width="100"
+                    alt="twitter"
+                  ></img>
+                </a>
               </div>
               <div>
-              <a href="https://twitter.com/"><img src="/images/facebook.png" width="100" alt="twitter"></img></a>
+                <a href="https://twitter.com/">
+                  <img
+                    src="/images/facebook.png"
+                    width="100"
+                    alt="twitter"
+                  ></img>
+                </a>
               </div>
               <div>
-              <a href="https://twitter.com/"> <img
-                  src="/images/instagram.png"
-                  width="122"
-                  alt="twitter"
-                ></img></a>
+                <a href="https://twitter.com/">
+                  {" "}
+                  <img
+                    src="/images/instagram.png"
+                    width="122"
+                    alt="twitter"
+                  ></img>
+                </a>
               </div>
             </ul>
           </section>
           <section className="et-slide et-slide-galeria" id="tab-other">
-              <h1>Galería</h1>
-      {/* <img src="/images/plantilla.png" width="100%" height="100%" alt="Equipo" /> */}
-      <div>
-      <h3>Nosotros</h3>
-      <ImageGallery items={images} />
-      </div>
-      <div>
-      <h3>Comida</h3>
-      <ImageGallery items={images1} />
-      </div>
-      <div>
-      <h3>Cocktails</h3>
-      <ImageGallery items={images2} />
-      </div>
+            <h1>Galería</h1>
+            {/* <img src="/images/plantilla.png" width="100%" height="100%" alt="Equipo" /> */}
+            <div>
+              <h3>Nosotros</h3>
+              <ImageGallery items={images} />
+            </div>
+            <div>
+              <h3>Cocktails</h3>
+              <ImageGallery items={images1} />
+            </div>
+            <div>
+              <h3>Comida</h3>
+              <ImageGallery items={images2} />
+            </div>
+            <ScrollUpButton
+              StopPosition={0}
+              ShowAtPosition={350}
+              EasingType="easeOutCubic"
+              AnimationDuration={500}
+              ContainerClassName="ScrollUpButton__Container"
+              TransitionClassName="ScrollUpButton__Toggled"
+              style={{ width: 29, height: 29 }}
+              ToggledStyle={{ bottom: 70, right: 10 }}
+            />
           </section>
           <Wasap2 className="wasap"></Wasap2>
         </main>
       </div>
-      
     );
   }
 }
