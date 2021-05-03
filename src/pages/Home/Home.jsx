@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import {Link} from 'react-router-dom';
+import ReactPlayer from 'react-player';
 import {Link} from "react-scroll";
 import Wasap2 from "../Wasap2.jsx";
 import Caerousel from "../Caerousel.jsx";
@@ -400,11 +400,16 @@ export default class Home extends Component {
           </section>
           <section className="et-slide et-slide-galeria" id="tab-other">
               <h1>Galería</h1>
-            {/* <div className="fotos">
-              <img src="images/1.png" width="100" alt=""></img>
-              <img src="images/2.png" width="100" alt=""></img>
-              <img src="images/3.png" width="100" alt=""></img>
-            </div> */}
+              <div className='player-wrapper'>
+        <ReactPlayer
+          className='react-player'
+          url='/images/cocktail-video.mp4'
+          width='100%'
+          height='100%'
+          controls='true'
+        />
+      </div>
+      <img src="/images/plantilla.png" width="100%" height="100%" alt="Equipo" />
           </section>
           <Wasap2 className="wasap"></Wasap2>
         </main>

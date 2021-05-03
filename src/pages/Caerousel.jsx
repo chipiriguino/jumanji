@@ -10,7 +10,7 @@ export default function Carousel1() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="images/cocktail.jpeg" height="600" 
+      src="images/cocktail.jpeg" height="500" 
       alt="First slide"
     />
     <Carousel.Caption>
@@ -21,7 +21,7 @@ export default function Carousel1() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="/images/gourmet.jpeg" height="600"
+      src="/images/gourmet.jpeg" height="500"
       alt="Third slide"
     />
 
@@ -33,7 +33,7 @@ export default function Carousel1() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="images/puerto.jpeg" height="600"
+      src="images/puerto.jpeg" height="500"
       alt="Third slide"/>
       
     <Carousel.Caption>

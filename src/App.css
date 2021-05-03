@@ -34,6 +34,9 @@ a {
   text-align: center;
   padding: 0 2em;
 }
+#tab-es6{
+  padding:0 0.5rem
+}
 .et-hero-tabs{
   height: 90vh;
 }
@@ -48,6 +51,9 @@ a {
 }
 .et-slide-contacto{
   height: 100vh;
+}
+#tab-other{
+  margin-top: 9.3rem;
 }
 .et-slide-galeria{
   height: 100vh;
@@ -259,6 +265,23 @@ span {
 .h2-title{
   margin-top: 45px;
 }
+
+
+
+/* GALERIA */
+
+/* .player-wrapper {
+  position: relative;
+  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+
+
+.react-player {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+}
+
+
 
 /* QUERYS */
 @media (min-width: 800px) {
