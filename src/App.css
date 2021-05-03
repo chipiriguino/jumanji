@@ -287,6 +287,15 @@ span {
 }
 
 
+/* FOOOTER */
+footer{
+  background-color: #000;
+  color: white;
+  padding:.5vh;
+  padding-top: 20px;
+}
+
+
 
 /* QUERYS */
 @media (min-width: 800px) {
@@ -336,7 +345,7 @@ span {
     height: 165vh;
   }
   .et-slide-cocktails{
-    height: 420vh;
+    height: 425vh;
   }
   .et-slide-contacto{
     height: 100vh;
