@@ -3,12 +3,14 @@ import ReactPlayer from 'react-player';
 import {Link} from "react-scroll";
 import Wasap2 from "../Wasap2.jsx";
 import Caerousel from "../Caerousel.jsx";
+// import {Helmet} from "react-helmet";
+// import Gallery from 'react-grid-gallery';
 
 export default class Home extends Component {
   render() {
     return (
       <div>
-        <section class="et-hero-tabs">
+        <section className="et-hero-tabs">
           <h3>
             <div className="typing-demo">MALA MADRE</div>
           </h3>
@@ -20,7 +22,7 @@ export default class Home extends Component {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={1000}
               >Experience</Link>
             </a>
@@ -76,106 +78,106 @@ export default class Home extends Component {
           <section className="et-slide et-slide-carta" id="tab-flexbox">
             <h1>Carta</h1>
 
-            <div class="wrapper-cart">
-              <div class="list">
-                <h2 class="list-title">By The Pound</h2>
+            <div className="wrapper-cart">
+              <div className="list">
+                <h2 className="list-title">By The Pound</h2>
                 <ul>
-                  <li class="item">
-                    <span class="name">Brisket</span>
-                    <span class="price">22</span>
+                  <li className="item">
+                    <span className="name">Brisket</span>
+                    <span className="price">22</span>
                   </li>
-                  <li class="item">
-                    <span class="name">Ribs</span>
-                    <span class="price">22</span>
+                  <li className="item">
+                    <span className="name">Ribs</span>
+                    <span className="price">22</span>
                   </li>
-                  <li class="item">
-                    <span class="name">Pulled Pork</span>
-                    <span class="price">19</span>
+                  <li className="item">
+                    <span className="name">Pulled Pork</span>
+                    <span className="price">19</span>
                   </li>
-                  <li class="item">
-                    <span class="name">Turkey</span>
-                    <span class="price">22</span>
+                  <li className="item">
+                    <span className="name">Turkey</span>
+                    <span className="price">22</span>
                   </li>
-                  <li class="item">
-                    <span class="name">Sausage</span>
-                    <span class="price">14</span>
+                  <li className="item">
+                    <span className="name">Sausage</span>
+                    <span className="price">14</span>
                   </li>
                 </ul>
               </div>
 
-              <div class="list">
-                <h2 class="list-title">Sandwiches</h2>
+              <div className="list">
+                <h2 className="list-title">Sandwiches</h2>
                 <ul>
-                  <li class="item">
-                    <span class="name">Brisket</span>
-                    <span class="price">22</span>
+                  <li className="item">
+                    <span className="name">Brisket</span>
+                    <span className="price">22</span>
                   </li>
-                  <li class="item">
-                    <span class="name">pulled Pork</span>
-                    <span class="price">9.5</span>
+                  <li className="item">
+                    <span className="name">pulled Pork</span>
+                    <span className="price">9.5</span>
                   </li>
-                  <li class="item">
-                    <span class="name">Chopped Beef</span>
-                    <span class="price">19</span>
+                  <li className="item">
+                    <span className="name">Chopped Beef</span>
+                    <span className="price">19</span>
                   </li>
-                  <li class="item">
-                    <span class="name">Turkey</span>
-                    <span class="price">22</span>
+                  <li className="item">
+                    <span className="name">Turkey</span>
+                    <span className="price">22</span>
                   </li>
-                  <li class="item">
-                    <span class="name">Sausage</span>
-                    <span class="price">14</span>
+                  <li className="item">
+                    <span className="name">Sausage</span>
+                    <span className="price">14</span>
                   </li>
-                  <li class="item">
-                    <span class="name">Tipsy Texan</span>
-                    <span class="price">14</span>
+                  <li className="item">
+                    <span className="name">Tipsy Texan</span>
+                    <span className="price">14</span>
                   </li>
                 </ul>
               </div>
 
-              <div class="list">
-                <h2 class="list-title">Sides</h2>
+              <div className="list">
+                <h2 className="list-title">Sides</h2>
                 <ul>
-                  <li class="item">
-                    <span class="name">Potato Salad</span>
-                    <span class="price">3</span>
+                  <li className="item">
+                    <span className="name">Potato Salad</span>
+                    <span className="price">3</span>
                   </li>
-                  <li class="item">
-                    <span class="name">Slaw</span>
-                    <span class="price">9.5</span>
+                  <li className="item">
+                    <span className="name">Slaw</span>
+                    <span className="price">9.5</span>
                   </li>
-                  <li class="item">
-                    <span class="name">Pinto Beans</span>
-                    <span class="price">19</span>
+                  <li className="item">
+                    <span className="name">Pinto Beans</span>
+                    <span className="price">19</span>
                   </li>
-                  <li class="item">
-                    <span class="name">Pinto Beans</span>
-                    <span class="price">19</span>
+                  <li className="item">
+                    <span className="name">Pinto Beans</span>
+                    <span className="price">19</span>
                   </li>
                 </ul>
               </div>
-              <div class="list">
-                <h2 class="list-title">By The Pound</h2>
+              <div className="list">
+                <h2 className="list-title">By The Pound</h2>
                 <ul>
-                  <li class="item">
-                    <span class="name">Brisket</span>
-                    <span class="price">22</span>
+                  <li className="item">
+                    <span className="name">Brisket</span>
+                    <span className="price">22</span>
                   </li>
-                  <li class="item">
-                    <span class="name">Ribs</span>
-                    <span class="price">22</span>
+                  <li className="item">
+                    <span className="name">Ribs</span>
+                    <span className="price">22</span>
                   </li>
-                  <li class="item">
-                    <span class="name">Pulled Pork</span>
-                    <span class="price">19</span>
+                  <li className="item">
+                    <span className="name">Pulled Pork</span>
+                    <span className="price">19</span>
                   </li>
-                  <li class="item">
-                    <span class="name">Turkey</span>
-                    <span class="price">22</span>
+                  <li className="item">
+                    <span className="name">Turkey</span>
+                    <span className="price">22</span>
                   </li>
-                  <li class="item">
-                    <span class="name">Sausage</span>
-                    <span class="price">14</span>
+                  <li className="item">
+                    <span className="name">Sausage</span>
+                    <span className="price">14</span>
                   </li>
                 </ul>
               </div>
@@ -183,183 +185,183 @@ export default class Home extends Component {
           </section>
           <section className="et-slide et-slide-cocktails" id="tab-react">
             <h1>Cocktails</h1>
-            <div class="wrapper-cart">
-              <div class="list">
-                <h2 class="list-title">Los Mala Madre</h2>
+            <div className="wrapper-cart">
+              <div className="list">
+                <h2 className="list-title">Los Mala Madre</h2>
                 <ul>
-                  <li class="item">
-                    <span class="name">PIÑA CORN</span>
-                    <span class="price">9</span>
+                  <li className="item">
+                    <span className="name">PIÑA CORN</span>
+                    <span className="price">9</span>
                   </li>
                   <p>Ron,piña,coco,palomitas</p>
-                  <li class="item">
-                    <span class="name">DONATELLA</span>
-                    <span class="price">8</span>
+                  <li className="item">
+                    <span className="name">DONATELLA</span>
+                    <span className="price">8</span>
                   </li>
                   <p>Gin,violeta,limón.</p>
-                  <li class="item">
-                    <span class="name">SOUTH SIDE</span>
-                    <span class="price">8</span>
+                  <li className="item">
+                    <span className="name">SOUTH SIDE</span>
+                    <span className="price">8</span>
                   </li>
                   <p>Gin,limón,hierbabuena</p>
-                  <li class="item">
-                    <span class="name">PORN STAR</span>
-                    <span class="price">9</span>
+                  <li className="item">
+                    <span className="name">PORN STAR</span>
+                    <span className="price">9</span>
                   </li>
                   <p>Vodka,maracuyá,lima,vainilla</p>
-                  <li class="item">
-                    <span class="name">JUNE BUG</span>
-                    <span class="price">9</span>
+                  <li className="item">
+                    <span className="name">JUNE BUG</span>
+                    <span className="price">9</span>
                   </li>
                   <p>Platanca,coco,piña,melón</p>
-                  <li class="item">
-                    <span class="name">PENICILIN</span>
-                    <span class="price">9</span>
+                  <li className="item">
+                    <span className="name">PENICILIN</span>
+                    <span className="price">9</span>
                   </li>
                   <p>Whisky ahumado,jengibre,miel</p>
-                  <li class="item">
-                    <span class="name">ROSAS & ENCANTO</span>
-                    <span class="price">9</span>
+                  <li className="item">
+                    <span className="name">ROSAS & ENCANTO</span>
+                    <span className="price">9</span>
                   </li>
                   <p>Vodka,arándanos,frambuesa,lima</p>
-                  <li class="item">
-                    <span class="name">MAI"MADRE"</span>
-                    <span class="price">9</span>
+                  <li className="item">
+                    <span className="name">MAI"MADRE"</span>
+                    <span className="price">9</span>
                   </li>
                   <p>Ron,piña,coco,jengibre</p>
-                  <li class="item">
-                    <span class="name">SOON OF JAMES</span>
-                    <span class="price">9</span>
+                  <li className="item">
+                    <span className="name">SOON OF JAMES</span>
+                    <span className="price">9</span>
                   </li>
                   <p>Jameson,lima,naranja</p>
                 </ul>
 
-                <h2 class="list-title h2-title">Los Clásicos</h2>
+                <h2 className="list-title h2-title">Los Clásicos</h2>
                 <ul>
-                  <li class="item">
-                    <span class="name">MOJITO</span>
-                    <span class="price">6</span>
+                  <li className="item">
+                    <span className="name">MOJITO</span>
+                    <span className="price">6</span>
                   </li>
                   <p>Ron,azúcar,menta</p>
-                  <li class="item">
-                    <span class="name">MOJITO SABORES</span>
-                    <span class="price">7</span>
+                  <li className="item">
+                    <span className="name">MOJITO SABORES</span>
+                    <span className="price">7</span>
                   </li>
                   <p>Fresa,sandía,piña,coco</p>
-                  <li class="item">
-                    <span class="name">DAIQUIRI SABORES</span>
-                    <span class="price">7</span>
+                  <li className="item">
+                    <span className="name">DAIQUIRI SABORES</span>
+                    <span className="price">7</span>
                   </li>
                   <p>Fresa,sandía,piña,coco</p>
-                  <li class="item">
-                    <span class="name">PIÑA COLADA</span>
-                    <span class="price">7</span>
+                  <li className="item">
+                    <span className="name">PIÑA COLADA</span>
+                    <span className="price">7</span>
                   </li>
                   <p>Ron,piña,coco</p>
-                  <li class="item">
-                    <span class="name">S**  ON THE BEACH</span>
-                    <span class="price">7</span>
+                  <li className="item">
+                    <span className="name">S**  ON THE BEACH</span>
+                    <span className="price">7</span>
                   </li>
                   <p>Vodka,arándanos,naranja</p>
-                  <li class="item">
-                    <span class="name">DARK & STORMY</span>
-                    <span class="price">8</span>
+                  <li className="item">
+                    <span className="name">DARK & STORMY</span>
+                    <span className="price">8</span>
                   </li>
                   <p>Ron,jengibre,coco</p>
-                  <li class="item">
-                    <span class="name">MOSCOW MULE</span>
-                    <span class="price">7</span>
+                  <li className="item">
+                    <span className="name">MOSCOW MULE</span>
+                    <span className="price">7</span>
                   </li>
                   <p>Vodka,jengibre,lima</p>
-                  <li class="item">
-                    <span class="name">OLD SCHOOL</span>
-                    <span class="price">9</span>
+                  <li className="item">
+                    <span className="name">OLD SCHOOL</span>
+                    <span className="price">9</span>
                   </li>
                   <p>Whisky,vainilla,palomitas</p>
                 </ul>
 
-                <h2 class="list-title h2-title">Los Toro Rosso</h2>
+                <h2 className="list-title h2-title">Los Toro Rosso</h2>
                 <ul>
-                  <li class="item">
-                    <span class="name">DARK & STORMY</span>
-                    <span class="price">7</span>
+                  <li className="item">
+                    <span className="name">DARK & STORMY</span>
+                    <span className="price">7</span>
                   </li>
                   <p>Ron,jengibre,cola,original RB</p>
-                  <li class="item">
-                    <span class="name">GIN TONIC</span>
-                    <span class="price">7</span>
+                  <li className="item">
+                    <span className="name">GIN TONIC</span>
+                    <span className="price">7</span>
                   </li>
                   <p>Gin,tónica,original RB</p>
-                  <li class="item">
-                    <span class="name">WHISKY ALE</span>
-                    <span class="price">7</span>
+                  <li className="item">
+                    <span className="name">WHISKY ALE</span>
+                    <span className="price">7</span>
                   </li>
                   <p>Whisky,ginger,limón,original RB</p>
-                  <li class="item">
-                    <span class="name">GIN LEMON</span>
-                    <span class="price">7</span>
+                  <li className="item">
+                    <span className="name">GIN LEMON</span>
+                    <span className="price">7</span>
                   </li>
                   <p>Gin,limón,original RB</p>
                   </ul>
 
-                  <h2 class="list-title h2-title">For Drivers</h2>
+                  <h2 className="list-title h2-title">For Drivers</h2>
                 <ul>
-                  <li class="item">
-                    <span class="name">GINGER PUMPKING</span>
-                    <span class="price">7</span>
+                  <li className="item">
+                    <span className="name">GINGER PUMPKING</span>
+                    <span className="price">7</span>
                   </li>
                   <p>Calabaza,canela,naranja</p>
-                  <li class="item">
-                    <span class="name">MOJITO 0,0</span>
-                    <span class="price">7</span>
+                  <li className="item">
+                    <span className="name">MOJITO 0,0</span>
+                    <span className="price">7</span>
                   </li>
                   <p>Hierbabuena,lima</p>
-                  <li class="item">
-                    <span class="name">SAN FRANCISCO</span>
-                    <span class="price">7</span>
+                  <li className="item">
+                    <span className="name">SAN FRANCISCO</span>
+                    <span className="price">7</span>
                   </li>
                   <p>Naranja,piña,melocotón</p>
                   </ul>
 
-                  <h2 class="list-title h2-title">Aperitivo</h2>
+                  <h2 className="list-title h2-title">Aperitivo</h2>
                 <ul>
-                  <li class="item">
-                    <span class="name">NEGRONI</span>
-                    <span class="price">6</span>
+                  <li className="item">
+                    <span className="name">NEGRONI</span>
+                    <span className="price">6</span>
                   </li>
                   <p>Gin,vermut,Campari</p>
-                  <li class="item">
-                    <span class="name">AMERICANO</span>
-                    <span class="price">6</span>
+                  <li className="item">
+                    <span className="name">AMERICANO</span>
+                    <span className="price">6</span>
                   </li>
                   <p>Soda,vermut,Campari</p>
-                  <li class="item">
-                    <span class="name">MARGARITA</span>
-                    <span class="price">7</span>
+                  <li className="item">
+                    <span className="name">MARGARITA</span>
+                    <span className="price">7</span>
                   </li>
                   <p>Tequila,triple seco,lima</p>
-                  <li class="item">
-                    <span class="name">PISCO SOUR</span>
-                    <span class="price">8</span>
+                  <li className="item">
+                    <span className="name">PISCO SOUR</span>
+                    <span className="price">8</span>
                   </li>
                   <p>Pisco,limón,huevo</p>
                   </ul>
 
-                  <h2 class="list-title h2-title">Batidos De Fruta</h2>
+                  <h2 className="list-title h2-title">Batidos De Fruta</h2>
                 <ul>
-                  <li class="item">
-                    <span class="name">PIÑA & COCO</span>
-                    <span class="price">6</span>
+                  <li className="item">
+                    <span className="name">PIÑA & COCO</span>
+                    <span className="price">6</span>
                   </li>
                   <p>Leche y azúcar</p>
-                  <li class="item">
-                    <span class="name">ARÁNDANOS & MENTA</span>
-                    <span class="price">6</span>
+                  <li className="item">
+                    <span className="name">ARÁNDANOS & MENTA</span>
+                    <span className="price">6</span>
                   </li>
                   <p>Leche y azúcar</p>
-                  <li class="item">
-                    <span class="name">NARANJA & FRESA</span>
-                    <span class="price">6</span>
+                  <li className="item">
+                    <span className="name">NARANJA & FRESA</span>
+                    <span className="price">6</span>
                   </li>
                   <p>Zumo y lima</p>
                   </ul>
@@ -406,7 +408,7 @@ export default class Home extends Component {
           url='/images/cocktail-video.mp4'
           width='100%'
           height='100%'
-          controls='true'
+          controls={true}
         />
       </div>
       <img src="/images/plantilla.png" width="100%" height="100%" alt="Equipo" />
@@ -414,6 +416,7 @@ export default class Home extends Component {
           <Wasap2 className="wasap"></Wasap2>
         </main>
       </div>
+      
     );
   }
 }
